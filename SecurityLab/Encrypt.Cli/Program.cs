@@ -5,8 +5,8 @@ namespace Encrypt.Cli;
 
 internal class Program
 {
-    // Example 1: --Mode=Encrypt --InputFile=Test.txt --OutputFile=Encrypted.dat
-    // Example 1: --Mode=Decrypt --InputFile=Encrypted.dat --OutputFile=Test2.txt
+    // Examples: --Mode=Encrypt --InputFile=Test.txt --OutputFile=Encrypted.dat --Password=secret
+    //           --Mode=Decrypt --InputFile=Encrypted.dat --OutputFile=Test2.txt --Password=secret
 
     private static void Main(string[] args)
     {
